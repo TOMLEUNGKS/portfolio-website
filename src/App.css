@@ -31,7 +31,7 @@ p {
   padding: 14px 32px;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 24px;
   cursor: pointer;
   text-align: center;
@@ -177,7 +177,7 @@ h2 {
   color: var(--darkblue);
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 24px;
   cursor: pointer;
 }
@@ -329,7 +329,7 @@ h2 {
   align-items: flex-start;
   gap: 80px;
 }
-.portfolio--container-box {
+.portfolio--container--box {
   display: flex;
   justify-content: space-between;
   align-items: center;
