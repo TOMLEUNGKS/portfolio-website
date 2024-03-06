@@ -143,7 +143,7 @@ h2 {
 /* Portfolio, Testimonial & Contact Me */
 .sub--title {
   color: var(--heading-color);
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 600;
   line-height: 24px;
 }
@@ -229,10 +229,17 @@ h2 {
 }
 .hero--section--img {
   display: flex;
+  justify-content: center;
 }
 .hero--section--img > img {
   width: 100%;
   height: 100%;
+}
+.hero--section--description {
+  font-size: 20px;
+}
+.section--title {
+  font-size: 24px;
 }
 /* Hero Section Style Ends */
 
@@ -312,12 +319,17 @@ h2 {
   display: grid;
   padding: 133.3px 85.3px;
   align-items: center;
-  gap: 114.6px;
+  gap: 0px;
   grid-template-columns: repeat(2, 1fr);
 }
+.about--section--img{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .about--section--img > img {
-  width: 100%;
-  height: 100%;
+  width: 60%;
+  height: 60%;
 }
 /* About Us Ends */
 
@@ -423,6 +435,10 @@ h2 {
   align-items: center;
   gap: 21.3px;
 }
+.testimonial--section--card--author--detail >img {
+  height: 70px;
+  width: 70px;
+}
 .testimonial--author--name {
   font-weight: 600;
   color: var(--heading-color);
@@ -509,10 +525,10 @@ input[type="checkbox"] {
 /* Footer Starts */
 .footer--container {
   display: flex;
-  padding: 106.667px 85.333px;
+  padding: 53.333px 85.333px;
   flex-direction: column;
   align-items: flex-start;
-  background: var(--bg-shade);
+  background: #D8E7E7;
   align-items: center;
   align-self: stretch;
 }
@@ -521,6 +537,9 @@ input[type="checkbox"] {
   justify-content: space-between;
   align-items: center;
   align-self: stretch;
+}
+.footer--items > Link {
+  font-weight: 600;
 }
 .footer--items > ul {
   list-style: none;
@@ -542,8 +561,8 @@ input[type="checkbox"] {
   text-decoration: none;
 }
 .divider {
-  margin: 106px 0 42.67px;
-  height: 1.333px;
+  margin: 33px 0 42.67px;
+  height: 0.333px;
   width: 100%;
   background: rgba(40, 41, 56, 0.55);
 }
@@ -629,8 +648,13 @@ input[type="checkbox"] {
   .portfolio--container-box {
     gap: 30px;
   }
+  .testimonial--section {
+    gap: 20px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: var(--bg-shade);
+  }
   .skills--section,
-  .testimonial--section,
   .contact--section,
   .footer--container {
     gap: 20px;

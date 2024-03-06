@@ -13,7 +13,7 @@ export default function HeroSection() {
                         This website is built using React JS. 
                     </p>
                 </div>
-                <button className="btn btn-primary">Get In Touch</button>
+                {/* <button className="btn btn-primary">Get In Touch</button> */}
             </div>
             <div className="hero--section--img">
                 <img src="./img/coding_bg.png" alt="Hero Section" />

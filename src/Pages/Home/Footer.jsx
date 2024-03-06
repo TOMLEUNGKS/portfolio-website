@@ -6,7 +6,17 @@ function Footer() {
     <footer className="footer--container">
       <div className="footer--link--container">
         <div>
-          <img src="./img/logo.svg" alt="Logoipsum" />
+        <Link
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            to="heroSection"
+            className="navbar--content"
+        >
+          <h2>Tom Leung</h2>
+        </Link>
+          {/* <img src="./img/logo.svg" alt="Logoipsum" /> */}
         </div>
         <div className="footer--items">
           <ul>
@@ -56,30 +66,30 @@ function Footer() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="Contact"
-                className="text-md"
-              >
-                Contact
-              </Link>
-            </li>
-            <li>
-              <Link
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
                 to="testimonial"
                 className="text-md"
               >
                 Testimonials
               </Link>
             </li>
+            {/* <li>
+              <Link
+                activeClass="navbar--active-content"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                to="Contact"
+                className="text-md"
+              >
+                Contact
+              </Link>
+            </li> */}
           </ul>
         </div>
         <div className="footer--social--icon">
           <ul>
-            <li>
+            {/* <li>
               <a
                 href="https://www.facebook.com/"
                 className="navbar--content"
@@ -99,8 +109,8 @@ function Footer() {
                   />
                 </svg>
               </a>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <a
                 href="https://www.instagram.com/"
                 className="navbar--content"
@@ -122,10 +132,10 @@ function Footer() {
                   />
                 </svg>
               </a>
-            </li>
+            </li> */}
             <li>
               <a
-                href="https://www.twitter.com/"
+                href="https://www.github.com/TOMLEUNGKS"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -134,19 +144,20 @@ function Footer() {
                   xmlns="http://www.w3.org/2000/svg"
                   width="32"
                   height="32"
-                  viewBox="0 0 33 33"
+                  viewBox="0 0 1792 1792"
                   fill="none"
                 >
                   <path
-                    d="M28.6304 9.61132C28.0112 10.4373 27.2627 11.1579 26.4137 11.7451C26.4137 11.9609 26.4137 12.1767 26.4137 12.4045C26.4205 16.3229 24.8553 20.0803 22.0691 22.8341C19.2827 25.588 15.5083 27.108 11.5921 27.0533C9.32799 27.0609 7.0929 26.544 5.0619 25.5429C4.95238 25.4951 4.88175 25.3868 4.88216 25.2672V25.1353C4.88216 24.9632 5.02164 24.8237 5.1937 24.8237C7.41923 24.7503 9.56536 23.9787 11.3285 22.618C9.31404 22.5773 7.50159 21.384 6.66747 19.5491C6.62535 19.4489 6.63846 19.3339 6.7021 19.2457C6.76572 19.1576 6.87067 19.1091 6.979 19.1176C7.59123 19.1791 8.20958 19.1221 8.80027 18.9497C6.57652 18.4881 4.90562 16.642 4.66648 14.3824C4.65799 14.274 4.70656 14.1691 4.79467 14.1053C4.88276 14.0417 4.99766 14.0285 5.09784 14.0708C5.69459 14.3341 6.33879 14.4728 6.99099 14.4783C5.04246 13.1994 4.20082 10.7669 4.94207 8.55641C5.01859 8.34163 5.20242 8.18295 5.426 8.13871C5.64958 8.09445 5.87995 8.17116 6.03243 8.34064C8.66186 11.1391 12.2747 12.8067 16.1092 12.9918C16.0111 12.5999 15.9628 12.1971 15.9655 11.7931C16.0013 9.67441 17.3123 7.78707 19.2845 7.01461C21.2567 6.24217 23.4999 6.73749 24.964 8.26871C25.9619 8.07859 26.9267 7.74339 27.8276 7.27373C27.8936 7.23253 27.9773 7.23253 28.0433 7.27373C28.0845 7.33976 28.0845 7.42348 28.0433 7.48951C27.6069 8.48881 26.8697 9.32695 25.9345 9.88704C26.7535 9.79207 27.558 9.59888 28.3309 9.31164C28.396 9.26735 28.4815 9.26735 28.5465 9.31164C28.6011 9.33657 28.6419 9.38427 28.658 9.44201C28.6741 9.49976 28.664 9.56169 28.6304 9.61132Z"
-                    fill="black"
-                  />
+                    fill-rule="evenodd"
+                    clip-rule="evenodd" 
+                    d="M1664 896q0 251-146.5 451.5t-378.5 277.5q-27 5-39.5-7t-12.5-30v-211q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-121-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-86-13.5q-44 113-7 204-79 85-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-40 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 89t.5 54q0 18-13 30t-40 7q-232-77-378.5-277.5t-146.5-451.5q0-209 103-385.5t279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z" 
+                    fill="black"/>
                 </svg>
               </a>
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/tom-leungks/"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -172,8 +183,8 @@ function Footer() {
       </div>
       <hr className="divider" />
       <div className="footer--content--container">
-        <p className="footer--content">Made with 💖 by Tom</p>
-        <div className="footer--social--icon">
+        <p className="footer--content">Made with ❤️ by Tom</p>
+        {/* <div className="footer--social--icon">
           <ul>
             <li>
               <Link
@@ -215,7 +226,7 @@ function Footer() {
               </Link>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </footer>
   );

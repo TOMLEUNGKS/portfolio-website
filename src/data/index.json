@@ -52,26 +52,18 @@
         {
           "id": "1",
           "count": "5",
-          "src": "./img/avatar-image.png",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-          "author_name": "Dianne Russel",
-          "author_designation": "Starbucks"
+          "src": "./img/ambtech-cropped.png",
+          "description": "Tom is detail-oriented, well-organized, highly efficient and able to work under pressure. He is also a promising and hardworking team player who can always use his best endeavours to perform all job assignments proficiently and conscientiously. Throughout the time I have known Tom, he has proven himself to be a nice, thoughtful, and enthusiastic subordinate who showed tremendous dedication to the team. He was always willing to offer his assistance and support to his colleagues.",
+          "author_name": "Damian Fung",
+          "author_designation": "Director at Ambition Hong Kong & AmbTech"
         },
         {
           "id": "2",
           "count": "5",
-          "src": "./img/avatar-image-1.png",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-          "author_name": "Kristin Watson",
-          "author_designation": "Louis Vuitton"
-        },
-        {
-          "id": "3",
-          "count": "5",
-          "src": "./img/avatar-image-2.png",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-          "author_name": "Kathryn Murphy",
-          "author_designation": "McDonald's"
+          "src": "./img/kemar-cropped.png",
+          "description": "Tom",
+          "author_name": "Kemar Jackson",
+          "author_designation": "Instructor at Cantek"
         }
       ]
 }

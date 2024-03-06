@@ -35,7 +35,16 @@ function Navbar() {
     return (
         <nav className={`navbar ${navActive ? "active" : ""}`}>
             <div>
+            <Link
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                to="heroSection"
+                className="navbar--content"
+            >
                 <h2>Tom Leung</h2>
+            </Link>
             {/* <img src="./img/logo.svg" alt="Logoipsum" /> */}
             </div>
             <a
@@ -106,7 +115,7 @@ function Navbar() {
                 </li>
             </ul>
             </div>
-            <Link
+            {/* <Link
                 onClick={closeMenu}
                 activeClass="navbar--active-content"
                 spy={true}
@@ -117,7 +126,7 @@ function Navbar() {
                 className="btn btn-outline-primary"
                 >
                 Contact Me
-            </Link>
+            </Link> */}
         </nav>
     );
 }
