@@ -36,9 +36,9 @@ export default function MyPortfolio() {
             <div className="portfolio--section--card--content">
               <div>
                 <h3 className="portfolio--section--title">{item.title}</h3>
-                <p className="text-md">{item.description}</p>
+                <p className="text-md" style={{paddingTop: "8px"}}>{item.description}</p>
               </div>
-              <p className="text-sm portfolio--link">
+              <a className="text-sm portfolio--link" href={item.url} rel="noreferrer" target="_blank">
                 {item.link}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -55,7 +55,7 @@ export default function MyPortfolio() {
                     stroke-linejoin="round"
                   />
                 </svg>
-              </p>
+              </a>
             </div>
           </div>
         ))}
