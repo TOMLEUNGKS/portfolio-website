@@ -7,7 +7,7 @@ export default function HeroSection() {
                     <h1 className="hero--section--title">
                         <span className="hero--section--title--color">I am Tom.</span>{""}
                         <br />
-                        A Software Engineer.
+                        A Software Enthusiast.
                     </h1>
                     <p className="hero--section--description">
                         This website is built using React JS. 
