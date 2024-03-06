@@ -28,7 +28,7 @@ function Footer() {
                 offset={-70}
                 duration={500}
                 to="heroSection"
-                className="text-md"
+                className="footer--section"
               >
                 Home
               </Link>
@@ -41,7 +41,7 @@ function Footer() {
                 offset={-70}
                 duration={500}
                 to="MyPortfolio"
-                className="text-md"
+                className="footer--section"
               >
                 Portfolio
               </Link>
@@ -54,7 +54,7 @@ function Footer() {
                 offset={-70}
                 duration={500}
                 to="AboutMe"
-                className="text-md"
+                className="footer--section"
               >
                 About Me
               </Link>
@@ -67,7 +67,7 @@ function Footer() {
                 offset={-70}
                 duration={500}
                 to="testimonial"
-                className="text-md"
+                className="footer--section"
               >
                 Testimonials
               </Link>
