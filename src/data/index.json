@@ -2,50 +2,53 @@
     "skills": [
         {
             "id": "1",
-            "src": "./img/product-chain-1.png",
-            "title": "Front-End",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+            "src": "./img/feather-pen-1.png",
+            "title": "Programming",
+            "description": ["JavaScript", "Python", "Java", "TypeScript", "SQL", "Bash", "PowerShell"]
           },
           {
             "id": "2",
-            "src": "./img/tag-1.png",
-            "title": "Back-End",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+            "src": "./img/feather-pen-2.png",
+            "title": "Front-End",
+            "description": ["Vue.js", "React.js", "CSS", "HTML", "Ionic", "Tailwind CSS"]
           },
           {
             "id": "3",
-            "src": "./img/feather-pen-2.png",
-            "title": "UI & UX Design",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+            "src": "./img/system.png",
+            "title": "Back-End",
+            "description": ["Node.js", "Express.js", "PostgreSQL", "MongoDB", "Firebase"]
           },
           {
             "id": "4",
-            "src": "./img/feather-pen-1.png",
-            "title": "Webflow Development",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+            "src": "./img/robot.png",
+            "title": "Test Automation",
+            "description": ["Selenium", "Cucumber", "TestNG", "Karate", "Appium", "TDD", "BDD", "Jira", "Jenkins"]
           }
     ],
     "portfolio": [
         {
           "id": "1",
           "src": "./img/placeholder-image.png",
-          "title": "Ahuse",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-          "link": "View In Github"
+          "title": "Car trading platform mobile app",
+          "description": "Native mobile apps (iOS and Android) built with Vue.js and Capacitor.",
+          "link": "View In Github",
+          "url": "https://github.com/TOMLEUNGKS/car-search-platform-app"
         },
         {
           "id": "2",
           "src": "./img/placeholder-image-1.png",
-          "title": "App Dashboard",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-          "link": "View In Github"
+          "title": "Car trading platform website",
+          "description": "A web app built with Vue.js, Node.js, Express.js, Tailwind CSS, Firebase and PostgreSQL.",
+          "link": "View In Github",
+          "url": "https://github.com/TOMLEUNGKS/car-search-platform-web"
         },
         {
           "id": "3",
           "src": "./img/placeholder-image-2.png",
-          "title": "Easy Rentn",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-          "link": "View In Github"
+          "title": "Video to mp3 converter",
+          "description": "A microservice that converts video to mp3 built using Python, RabbitMQ, MongoDB, mySQL, Docker and Kubernetes.",
+          "link": "View In Github",
+          "url": "https://github.com/TOMLEUNGKS/video-to-mp3"
         }
       ],
       "testimonial": [
