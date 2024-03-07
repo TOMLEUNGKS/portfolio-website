@@ -21,9 +21,10 @@ p {
   --heading-color: #282938;
   --bg-shade: #f5fcff;
   --github: #e62872;
-  --darkblue: #1c1e53;
+  --darkblue: #262868;
   --black: #000000;
   --white: #ffffff;
+  --darkgray: #414141;
 }
 .btn {
   font-family: "Roboto";
@@ -253,7 +254,7 @@ h2 {
   gap: 106.667px;
 }
 .skills--section--heading {
-  color: var(--heading-color);
+  color: var(--darkblue);
   font-size: 64px;
   font-weight: 700;
   line-height: 77px;
@@ -307,7 +308,7 @@ h2 {
   line-height: 45px;
 }
 .skills--section--description {
-  color: var(--black);
+  color: var(--darkgray);
   font-size: 21.3px;
   font-style: normal;
   font-weight: 400;
@@ -636,6 +637,7 @@ input[type="checkbox"] {
   .hero--section-description,
   .footer--content {
     text-align: center;
+    color: var(--darkgray);
   }
   .skills--section--container,
   .about--section,
